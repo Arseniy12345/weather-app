@@ -1,0 +1,87 @@
+.forecast {
+  display: grid;
+  height: 462px;
+  grid-template-areas:
+    "name name"
+    "forecast fatecast"
+    "description discription"
+    "daily daily";
+  grid-template-rows: 30px 100px 30px 100px;
+  background: white;
+  border-radius: 10px;
+  padding: 10px 20px 20px 20px;
+  margin-left: 10px;
+}
+
+.cityName {
+  grid-area: name;
+  font-size: 25px;
+}
+
+.cityName span {
+  font-weight: 600;
+}
+
+.temp {
+  grid-area: forecast;
+  display: flex;
+  justify-items: center;
+}
+
+.currentTemp {
+  display: inline-block;
+  font-size: 70px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.info {
+  display: inline-block;
+}
+
+.infoForecast {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.description {
+  grid-area: description;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.descriptionImages {
+  height: 12px;
+  width: 12px; 
+}
+
+.dailyForecast {
+  grid-area: daily;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 10px;
+}
+
+.dailyForecastItem {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: inline-block;
+  align-self: center;
+  border: 2px solid rgb(83, 152, 255);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  width: 120px;
+  height: 230px;
+}
+
+.dailyForecastItem:hover {
+  background: rgb(83, 152, 255);
+}
+
+.infoError {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}

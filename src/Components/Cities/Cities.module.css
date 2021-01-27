@@ -1,0 +1,38 @@
+.cityBlock {
+  background: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cityName {
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.cityName:hover {
+  background-color: rgb(83, 152, 255);
+}
+
+.foundCity {
+  margin-top: 10px;
+  height: 400px;
+  overflow: auto;
+}
+
+.band {
+  width: 90%;
+  color: black;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.input {
+  width: 250px;
+  padding: 5px;
+  padding-left: 10px;
+  border: 2px solid rgb(83, 152, 255);
+  border-radius: 10px;
+  font-size: 15px;
+}
