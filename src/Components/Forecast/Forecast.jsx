@@ -8,9 +8,9 @@ import Pressure from "../../assets/images/pressure.svg"
 
 const Forecast = (props) => {
 
-  if (!props.temp && !props.isLoad) {
-    return <div className={styles.infoError}>Введите город</div>
-  }
+  // if (!props.temp && !props.isLoad) {
+  //   return <div className={styles.infoError}>Введите город</div>
+  // }
 
   if(props.isError) {
     return <div className={styles.infoError}>По найденному городу не данных по прогнозу погоды</div>
